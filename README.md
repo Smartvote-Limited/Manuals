@@ -1,5 +1,7 @@
 # Smartvote Limited Manuals
 
+[![CI/CD](https://github.com/Smartvote-Limited/Manuals/actions/workflows/pages.yml/badge.svg)](https://github.com/Smartvote-Limited/Manuals/actions/workflows/pages.yml)
+
 Central repository for manuals, guides, procedures, and documentation used across Smartvote Limited.
 
 This repository is intentionally not limited to software. It may contain documentation for systems, products, hardware, internal procedures, training materials, and other operational resources.
