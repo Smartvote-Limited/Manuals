@@ -4,6 +4,12 @@ Welcome to the central documentation site for Smartvote Limited.
 
 This repository stores manuals and other documentation without forcing them into fixed categories such as software, hardware, or systems.
 
+## Available manuals
+
+### School Activities
+
+- [匯入 45 位學生 CSV](school-activities/import-45-students-csv.md)
+
 ## Adding a manual
 
 Create a folder under `docs/` using the subject, product, project, or manual name.
@@ -13,12 +19,9 @@ For example:
 ```text
 docs/
 ├── index.md
-├── inventory-management/
+├── school-activities/
 │   ├── index.md
-│   ├── getting-started.md
-│   └── troubleshooting.md
-├── digital-donor-wall/
-│   └── index.md
+│   └── import-45-students-csv.md
 └── templates/
     └── manual-template.md
 ```
