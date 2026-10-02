@@ -2,45 +2,45 @@
 
 [![CI/CD](https://github.com/Smartvote-Limited/Manuals/actions/workflows/pages.yml/badge.svg)](https://github.com/Smartvote-Limited/Manuals/actions/workflows/pages.yml)
 
-Central repository for manuals, guides, procedures, and documentation used across Smartvote Limited.
+Central repository for manuals and documentation used across Smartvote Limited.
 
-This repository is intentionally not limited to software. It may contain documentation for systems, products, hardware, internal procedures, training materials, and other operational resources.
+The documentation website is built from Markdown files under `docs/` using MkDocs Material and deployed automatically with GitHub Actions.
 
 ## Structure
 
-- `products/` — Product-specific manuals and user guides
-- `systems/` — System and platform documentation
-- `hardware/` — Hardware setup, installation, and maintenance guides
-- `procedures/` — Internal procedures and operational instructions
-- `training/` — Training and onboarding materials
-- `templates/` — Reusable documentation templates
-- `assets/` — Shared images, diagrams, screenshots, and other assets
+```text
+Manuals/
+├── README.md
+├── mkdocs.yml
+├── requirements.txt
+├── docs/
+│   ├── index.md
+│   ├── templates/
+│   │   └── manual-template.md
+│   ├── stylesheets/
+│   │   └── extra.css
+│   └── <manual-name>/
+│       └── index.md
+└── .github/
+    └── workflows/
+        └── pages.yml
+```
+
+Create one folder under `docs/` for each subject, product, project, or manual. There is no required category such as software, hardware, or systems.
 
 ## Documentation Guidelines
 
-1. Create one folder per product, system, device, or procedure.
-2. Use Markdown (`.md`) as the primary documentation format where practical.
-3. Store related screenshots and diagrams close to the manual or under `assets/`.
+1. Use Markdown (`.md`) as the primary documentation format.
+2. Name folders and files clearly, preferably using lowercase kebab-case.
+3. Keep screenshots and related assets close to the manual that uses them.
 4. Use clear step-by-step instructions for operational procedures.
-5. Keep technical implementation documentation in the relevant source-code repository when it is only useful to developers.
-6. Keep customer-facing, operator-facing, and organization-wide manuals in this repository.
-
-## Naming
-
-Use lowercase kebab-case for folders and files where practical.
-
-Example:
-
-```text
-products/
-└── inventory-management/
-    ├── README.md
-    ├── getting-started.md
-    ├── daily-operations.md
-    ├── troubleshooting.md
-    └── images/
-```
+5. Keep developer-only implementation documentation in the relevant source-code repository.
+6. Add new published manuals to the navigation in `mkdocs.yml`.
 
 ## Manual Template
 
-Start new manuals from [templates/manual-template.md](templates/manual-template.md).
+Start new manuals from [`docs/templates/manual-template.md`](docs/templates/manual-template.md).
+
+## Documentation Website
+
+https://smartvote-limited.github.io/Manuals/
