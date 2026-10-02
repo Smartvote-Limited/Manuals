@@ -1,0 +1,59 @@
+site_name: Smartvote Limited Manuals
+site_description: Manuals, guides, procedures, and documentation for Smartvote Limited
+site_url: https://smartvote-limited.github.io/Manuals/
+repo_url: https://github.com/Smartvote-Limited/Manuals
+repo_name: Smartvote-Limited/Manuals
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Products: products/index.md
+  - Systems: systems/index.md
+  - Hardware: hardware/index.md
+  - Procedures: procedures/index.md
+  - Training: training/index.md
+  - Templates:
+      - Manual Template: templates/manual-template.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; Smartvote Limited
