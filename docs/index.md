@@ -6,7 +6,7 @@ This repository stores manuals and other documentation without forcing them into
 
 ## Available manuals
 
-### School Activities
+### SMV Classroom
 
 - [匯入 45 位學生 CSV](school-activities/import-45-students-csv.md)
 

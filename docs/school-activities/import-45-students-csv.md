@@ -1,9 +1,9 @@
 # 匯入 45 位學生 CSV
 
-本教學說明如何在 **School Activities** 一次匯入 45 位學生。
+本教學說明如何在 **SMV Classroom** 一次匯入 45 位學生。
 
 !!! info "學生數量限制"
-    School Activities 目前最多支援 **50 位學生**，因此匯入 45 位學生沒有問題。
+    SMV Classroom 目前最多支援 **50 位學生**，因此匯入 45 位學生沒有問題。
 
 ## 1. 準備 CSV
 
@@ -44,9 +44,9 @@ id,name,gender
 3. `id` 建議使用 1 至 45，避免排序混亂。
 4. 儲存或下載為 **CSV**，並盡量使用 **UTF-8** 編碼，以確保中文姓名正常顯示。
 
-## 2. 在 School Activities 開啟設定
+## 2. 在 SMV Classroom 開啟設定
 
-1. 開啟 School Activities。
+1. 開啟 SMV Classroom。
 2. 按右上角的 **選單按鈕**。
 3. 選擇 **「設定」**。
 4. 找到 **「導入學生姓名」**。

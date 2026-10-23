@@ -29,7 +29,7 @@ theme:
 
 nav:
   - Home: index.md
-  - School Activities:
+  - SMV Classroom:
       - Overview: school-activities/index.md
       - 匯入 45 位學生 CSV: school-activities/import-45-students-csv.md
   - Manual Template: templates/manual-template.md

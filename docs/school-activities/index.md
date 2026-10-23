@@ -1,6 +1,6 @@
-# School Activities
+# SMV Classroom
 
-School Activities 的操作說明。
+SMV Classroom 的操作說明。
 
 ## 教學
 
